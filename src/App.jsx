@@ -1,5 +1,5 @@
 import "./App.css";
-import CalendarGrid from "./components/CalenderGrid";
+import CalendarGrid from "./components/CalendarGrid";
 const App = () => (
   <>
     <CalendarGrid />
