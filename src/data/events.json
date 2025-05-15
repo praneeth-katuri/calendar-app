@@ -1,16 +1,121 @@
 [
     {
+        "date": "2025-05-03",
+        "startTime": "09:00",
+        "endTime": "10:00",
+        "color": "#60a5fa",
+        "title": "Project Kickoff"
+    },
+    {
+        "date": "2025-05-03",
+        "startTime": "10:15",
+        "endTime": "11:00",
+        "color": "#34d399",
+        "title": "Team Sync"
+    },
+    {
+        "date": "2025-05-03",
+        "startTime": "11:00",
+        "endTime": "12:30",
+        "color": "#facc15",
+        "title": "Client Review"
+    },
+    {
+        "date": "2025-05-03",
+        "startTime": "12:30",
+        "endTime": "14:00",
+        "color": "#a78bfa",
+        "title": "Design Review"
+    },
+    {
+        "date": "2025-05-03",
+        "startTime": "14:00",
+        "endTime": "15:00",
+        "color": "#fb923c",
+        "title": "Support Meeting"
+    },
+    {
+        "date": "2025-05-03",
+        "startTime": "15:00",
+        "endTime": "16:00",
+        "color": "#f472b6",
+        "title": "Internal Huddle"
+    },
+    {
+        "date": "2025-05-03",
+        "startTime": "16:00",
+        "endTime": "17:00",
+        "color": "#93c5fd",
+        "title": "QA Review"
+    },
+    {
+        "date": "2025-05-03",
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "color": "#a7f3d0",
+        "title": "Strategy Session"
+    },
+    {
+        "date": "2025-05-03",
+        "startTime": "18:00",
+        "endTime": "19:00",
+        "color": "#fde68a",
+        "title": "Budget Discussion"
+    },
+    {
+        "date": "2025-05-03",
+        "startTime": "19:00",
+        "endTime": "20:00",
+        "color": "#ddd6fe",
+        "title": "Wrap-up"
+    },
+    {
+        "date": "2025-05-15",
+        "startTime": "09:00",
+        "endTime": "10:00",
+        "color": "#60a5fa",
+        "title": "Sales Call"
+    },
+    {
+        "date": "2025-05-15",
+        "startTime": "10:30",
+        "endTime": "11:30",
+        "color": "#facc15",
+        "title": "Stakeholder Review"
+    },
+    {
+        "date": "2025-05-15",
+        "startTime": "11:30",
+        "endTime": "12:30",
+        "color": "#34d399",
+        "title": "Hiring Discussion"
+    },
+    {
+        "date": "2025-05-15",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "color": "#a78bfa",
+        "title": "Quarterly Review"
+    },
+    {
         "date": "2025-05-20",
         "startTime": "00:00",
         "endTime": "01:30",
-        "color": "#f6be23",
+        "color": "#60a5fa",
         "title": "Daily Standup"
+    },
+    {
+        "date": "2025-05-20",
+        "startTime": "00:30",
+        "endTime": "02:00",
+        "color": "#facc15",
+        "title": "Urgent Sync"
     },
     {
         "date": "2025-05-20",
         "startTime": "04:30",
         "endTime": "07:30",
-        "color": "#f6501e",
+        "color": "#34d399",
         "title": "Weekly Catchup"
     },
     {
@@ -24,28 +129,35 @@
         "date": "2025-05-25",
         "startTime": "14:00",
         "endTime": "15:00",
-        "color": "#3b82f6",
+        "color": "#60a5fa",
         "title": "Design Review"
     },
     {
-        "date": "2025-05-20",
-        "startTime": "00:00",
-        "endTime": "01:30",
-        "color": "#f6be23",
-        "title": "Daily Standup"
-    },
-    {
-        "date": "2025-05-20",
-        "startTime": "04:30",
-        "endTime": "07:30",
-        "color": "#f6501e",
-        "title": "Weekly Catchup"
+        "date": "2025-05-25",
+        "startTime": "15:30",
+        "endTime": "17:00",
+        "color": "#facc15",
+        "title": "Support Review"
     },
     {
         "date": "2025-05-25",
-        "startTime": "10:00",
-        "endTime": "12:00",
-        "color": "#34d399",
-        "title": "Client Review"
+        "startTime": "17:30",
+        "endTime": "18:30",
+        "color": "#a78bfa",
+        "title": "Internal Huddle"
+    },
+    {
+        "date": "2025-05-28",
+        "startTime": "08:00",
+        "endTime": "09:00",
+        "color": "#facc15",
+        "title": "Morning Check-in"
+    },
+    {
+        "date": "2025-05-28",
+        "startTime": "08:30",
+        "endTime": "10:00",
+        "color": "#a78bfa",
+        "title": "Overlap Meeting"
     }
 ]
