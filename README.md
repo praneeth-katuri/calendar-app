@@ -13,7 +13,7 @@ Calendar app built using **React** and **Tailwind CSS**.
 
 ## 🎨 UI Preview
 
-![Calendar App UI](./assets/calendar-ui-preview.png)
+![Calendar App UI](./src/assets/calendar-ui-preview.png)
 
 ---
 
