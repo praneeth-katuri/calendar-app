@@ -1,4 +1,4 @@
-import { useCalendar } from "../hooks/useCalendar";
+import { useCalendar } from "@/hooks/useCalendar";
 import CalendarHeader from "./CalendarHeader";
 import WeekRow from "./WeekRow";
 import Header from "./Header";

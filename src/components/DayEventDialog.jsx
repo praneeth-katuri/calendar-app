@@ -6,8 +6,8 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import ConflictBadge from "./ConflictBadge";
-import isOverlap from "../utils/isOverlap";
-import { groupOverlappingEvents } from "../utils/groupOverlappingEvents";
+import isOverlap from "@/utils/isOverlap";
+import { groupOverlappingEvents } from "@/utils/groupOverlappingEvents";
 
 const DayEventDialog = ({ date, events, children }) => {
   const unifiedEvents = groupOverlappingEvents(events);

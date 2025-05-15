@@ -1,5 +1,5 @@
 import dayjs from "dayjs";
-import eventsData from "../data/events.json";
+import eventsData from "@/data/events.json";
 import EventBadge from "./EventBadge";
 import DayEventDialog from "./DayEventDialog";
 import isOverlap from "@/utils/isOverlap";
