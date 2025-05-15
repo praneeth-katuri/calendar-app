@@ -1,9 +1,6 @@
 import "./App.css";
-import CalendarGrid from "./components/CalendarGrid";
-const App = () => (
-  <>
-    <CalendarGrid />
-  </>
-);
+import CalendarGrid from "@/components/CalendarGrid";
+
+const App = () => <CalendarGrid />;
 
 export default App;
