@@ -1,13 +1,22 @@
 import { useCalendar } from "../hooks/useCalendar";
 import CalendarHeader from "./CalendarHeader";
 import WeekRow from "./WeekRow";
+import Header from "./Header";
 
 const CalendarGrid = () => {
-  const { today, currentMonth, calendar, handlePrevMonth, handleNextMonth } =
-    useCalendar();
+  const {
+    today,
+    currentMonth,
+    calendar,
+    handlePrevMonth,
+    handleNextMonth,
+    goToToday,
+  } = useCalendar();
 
+  const weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   return (
-    <div className="calendar-container p-4 max-w-7xl mx-auto bg-white rounded shadow">
+    <div className="my-[3rem] calendar-container p-4 bg-white max-w-7xl mx-auto rounded shadow">
+      <Header onTodayClick={goToToday} />
       <CalendarHeader
         currentMonth={currentMonth}
         onPrev={handlePrevMonth}
@@ -15,7 +24,7 @@ const CalendarGrid = () => {
       />
 
       <div className="grid grid-cols-7 mb-2">
-        {["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((day) => (
+        {weekDays.map((day) => (
           <div key={day} className="text-center font-medium uppercase text-sm">
             {day}
           </div>
