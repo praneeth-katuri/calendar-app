@@ -4,6 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/calendar-app/",
   resolve: {
     alias: {
       "@": new URL("./src", import.meta.url).pathname,
