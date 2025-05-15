@@ -1,8 +1,8 @@
 import "./App.css";
-
+import CalendarGrid from "./components/CalenderGrid";
 const App = () => (
   <>
-    <p>hi</p>
+    <CalendarGrid />
   </>
 );
 
