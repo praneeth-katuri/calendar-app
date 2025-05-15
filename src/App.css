@@ -1,29 +1,16 @@
-/* Apply Inter globally */
 body {
   font-family: "Inter", sans-serif;
-  background-color: #f9fafb;
   color: #111827;
   line-height: 1.6;
+  background: linear-gradient(135deg, #e0ecff, #f5e6ff);
+  background-attachment: fixed;
 }
 
-/* Clean card-like container look */
 .calendar-container {
-  background-color: #ffffff;
   border-radius: 0.75rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   padding: 1rem;
 }
-
-/* Event badge */
-/* .event-badge {
-  font-weight: 500;
-  padding: 0.2rem 0.5rem;
-  border-radius: 0.375rem;
-  display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-} */
 
 .more-badge {
   color: #6b7280;
