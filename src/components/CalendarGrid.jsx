@@ -7,7 +7,7 @@ const CalendarGrid = () => {
     useCalendar();
 
   return (
-    <div className="calendar-container p-4 max-w-4xl mx-auto bg-white rounded shadow">
+    <div className="calendar-container p-4 max-w-7xl mx-auto bg-white rounded shadow">
       <CalendarHeader
         currentMonth={currentMonth}
         onPrev={handlePrevMonth}

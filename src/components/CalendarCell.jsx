@@ -19,8 +19,8 @@ const CalendarCell = ({ date, today, currentMonth }) => {
     <DayEventDialog date={date} events={events}>
       <div
         className={`
-          border h-32 p-1 text-left relative overflow-hidden cursor-pointer
-          ${isToday ? "bg-blue-100 font-bold" : ""}
+          hover:bg-[#f3f4f6] border h-32 p-1 text-left relative overflow-hidden cursor-pointer
+          ${isToday ? "bg-blue-100 font-bold hover:bg-blue-100" : ""}
           ${!isCurrentMonth ? "text-gray-400" : ""}
         `}
       >
