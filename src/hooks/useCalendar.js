@@ -32,12 +32,13 @@ export const useCalendar = () => {
   const handlePrevMonth = () =>
     setCurrentMonth(currentMonth.subtract(1, "month"));
   const handleNextMonth = () => setCurrentMonth(currentMonth.add(1, "month"));
-
+  const goToToday = () => setCurrentMonth(dayjs().startOf("month"));
   return {
     today,
     currentMonth,
     calendar,
     handlePrevMonth,
     handleNextMonth,
+    goToToday,
   };
 };
