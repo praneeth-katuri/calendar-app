@@ -36,10 +36,9 @@ const CalendarCell = ({ date, today, currentMonth }) => {
         <div className="flex justify-between text-sm">
           <span>{date.date()}</span>
           {hasConflict && (
-            <AlertTriangle
-              className="w-4 h-4 text-red-600"
-              title="Conflicting events on this day"
-            />
+            <AlertTriangle className="w-4 h-4 text-red-600">
+              <title>Conflicting events on this day</title>
+            </AlertTriangle>
           )}
         </div>
 

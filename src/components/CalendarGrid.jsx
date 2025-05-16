@@ -2,6 +2,7 @@ import { useCalendar } from "@/hooks/useCalendar";
 import CalendarHeader from "./CalendarHeader";
 import WeekRow from "./WeekRow";
 import Header from "./Header";
+import Legend from "./Legend";
 
 const CalendarGrid = () => {
   const {
@@ -39,6 +40,8 @@ const CalendarGrid = () => {
           currentMonth={currentMonth}
         />
       ))}
+
+      <Legend />
     </div>
   );
 };
